@@ -21,7 +21,7 @@ function headerContent() {
                         <li class="header__menu__item"><a class="header__menu__a focused" href="#home">Home</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#about">About</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#contact">Contact</a></li>
-                        <li class="header__menu__item"><a class="header__menu__a" href="#portfolio">Play Background Music</a></li>
+                        <li class="header__menu__item"><a class="header__menu__a" href="#backMusic">Play Background Music</a></li>
                     </ul>
                 </nav>
             </div>
