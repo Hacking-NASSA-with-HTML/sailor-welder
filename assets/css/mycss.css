@@ -122,10 +122,12 @@ body {
 }
 
 .header__menu__a:focus {
-    color: #df6760;
+    /* color: #df6760; */
+    color: #0f1435;
 }
 
 .header__menu__a:hover {
+    /* color: #df6760; */
     color: #df6760;
 }
 
