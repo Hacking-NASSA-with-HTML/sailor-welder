@@ -115,6 +115,7 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
 .header__menu__item:nth-child(5) .header__menu__a {
@@ -128,7 +129,7 @@ body {
 
 .header__menu__a:hover {
     /* color: #df6760; */
-    color: #df6760;
+    color: #1b0943;
 }
 
 
