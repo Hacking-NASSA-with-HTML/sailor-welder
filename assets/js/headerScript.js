@@ -12,7 +12,7 @@ function headerContent() {
             </div>
             <div class="logo__container">
                 <div class="logo">
-                    <a class="logo__description" href="#home">S-Welder</a>
+                    <a class="logo__description" href="#home">Sailor-Welder</a>
                 </div>
             </div>
             <div class="navigation__container">
