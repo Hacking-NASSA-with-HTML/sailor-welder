@@ -30,8 +30,10 @@ body {
     height: auto;
     margin: 0 auto;
     /* background-color: #2d303a; */
-    background-color: #008AD8;
-    border-bottom: 6px solid #64bcf0;
+    /* background-color: #008AD8; */
+    background-color: #64bcf0;
+    /* border-bottom: 6px solid #64bcf0; */
+    border-bottom: 6px solid #008AD8;
 }
 
 .header__container {
