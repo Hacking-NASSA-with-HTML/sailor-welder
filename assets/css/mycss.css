@@ -288,7 +288,7 @@ body {
     .header__container .header__menu__wrapper {
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
         justify-content: center;
         width: 74vw;
     }
