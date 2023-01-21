@@ -5,11 +5,11 @@ function homeContent() {
     <section id="home">
         <div class="home__wrapper">
             <div class="textBlock">
-                <p>Lorem5</p>
-                <p>Lorem5</p>
-                <p>Lorem5</p>
-                <p>Lorem5</p>
-                <p>Lorem5</p>
+                <p>Home Page Content</p>
+                <p>Home Page Content</p>
+                <p>Home Page Content</p>
+                <p>Home Page Content</p>
+                <p>Home Page Content</p>
             </div>
         </div>
     </section>
