@@ -234,10 +234,6 @@ body {
     transform: rotate(270deg);
 }
 
-.active_menu .header__container .navigation__section {
-    transform: translateX(-20%);
-    /* transform: translateX(0%); */
-}
 
 
 
@@ -247,6 +243,11 @@ body {
 /*****************************                                          ***********/
 
 @media only screen and (max-width: 767px) {
+
+    .active_menu .header__container .navigation__section {
+        transform: translateX(-20%);
+        /* transform: translateX(0%); */
+    }
 
     .header__container {
         display: flex;
@@ -327,3 +328,8 @@ body {
         color: #df6760;
     }
 }
+
+/*****************************                                          ***********/
+/*****************************        @media (max-width: 767px)         ***********/
+/*****************************                                          ***********/
+/*****************************                                          ***********/
