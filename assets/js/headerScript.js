@@ -4,8 +4,8 @@ function headerContent() {
         `
 <div class="header__wrapper">
     <header class="header">
-        <div class="header__container holder">
-            <div class="hamburger-box hamburgerForMobile" id="hamburgerBox">
+        <div class="header__container">
+            <div class="hamburger-box" id="hamburgerBox">
                 <div class="line l1"></div>
                 <div class="line l2"></div>
                 <div class="line l3"></div>
