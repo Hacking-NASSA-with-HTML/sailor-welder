@@ -122,12 +122,15 @@ body {
 } */
 
 .header__menu__a:hover {
-    /* color: #df6760; */
     color: #1b0943;
 }
 
+.header__menu__a:active {
+    color: #ff1100;
+    box-shadow: 2px 2px 5px
+}
+
 .focused {
-    /* color: #0b179f; */
     color: #ff1100;
 }
 
