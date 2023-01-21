@@ -337,18 +337,7 @@ body {
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-@media only screen and (min-width: 767px) {
-
-    .header__menu__a:hover {
-        /* color: #df6760; */
-        color: #1b0943;
-    }
-
-    .header__menu__a:focus {
-        /* color: #df6760; */
-        color: #0f1435;
-    }
-}
+/* @media only screen and (min-width: 767px) {} */
 
 
 
