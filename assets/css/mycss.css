@@ -145,24 +145,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #25cbf5;
     width: 100vw;
     max-width: 1020px;
     min-height: 100vh;
     max-height: 100vh;
     height: 100vh;
+    margin: 0 auto;
 }
 
 .about__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #5bcce8;
     width: 100vw;
     max-width: 1020px;
     min-height: 100vh;
     max-height: 100vh;
     height: 100vh;
+    margin: 0 auto;
 }
 
+.contact__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25cbf5;
+    width: 100vw;
+    max-width: 1020px;
+    min-height: 100vh;
+    max-height: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
 
 .initialStructureContainerWrapper {
     width: 100vw;
