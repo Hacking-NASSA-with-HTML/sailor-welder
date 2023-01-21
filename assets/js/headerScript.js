@@ -33,3 +33,32 @@ function headerContent() {
 }
 
 root.insertAdjacentHTML("beforeend", headerContent())
+
+
+/***************************************************** Mobile menu *****************/
+
+const HAMBURGER = document.getElementById('hamburgerBox');
+const BODY = document.getElementById('body');
+const CLOSE_MOBILE_MENU = document.getElementById('navigationSection');
+
+
+HAMBURGER.addEventListener('click', () => {
+    BODY.classList.toggle('active_menu');
+});
+
+CLOSE_MOBILE_MENU.addEventListener('click', () => {
+    BODY.classList.toggle('active_menu');
+});
+
+CLOSE_MOBILE_MENU.addEventListener('touchmove', () => {
+    BODY.classList.toggle('active_menu');
+});
+
+
+/***************************************** Animation for hamburger *****************/
+
+const EL = document.getElementById('hamburgerBox');
+
+EL.addEventListener('click', () => {
+    EL.classList.toggle('activeForHumburger');
+});
