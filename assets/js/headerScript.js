@@ -32,4 +32,4 @@ function headerContent() {
     return renderHeaderContent
 }
 
-root.insertAdjacentHTML("afterend", headerContent())
+root.insertAdjacentHTML("beforeend", headerContent())

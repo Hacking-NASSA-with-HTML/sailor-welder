@@ -13,6 +13,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .header__wrapper {
@@ -39,6 +40,7 @@ body {
 .header__container {
     display: flex;
     justify-content: space-between;
+    overflow-x: hidden;
     /* width: 100vw; */
     height: 100%;
     margin: 0 auto;
@@ -118,9 +120,10 @@ body {
     transition: all .3s ease;
 }
 
-.header__menu__item:nth-child(5) .header__menu__a {
-    letter-spacing: -0.2px;
-}
+/*  letter-spacing example */
+/* .header__menu__item:nth-child(4) .header__menu__a {
+    letter-spacing: -2.2px;
+} */
 
 .header__menu__a:focus {
     /* color: #df6760; */
@@ -136,6 +139,25 @@ body {
 /*****************************                                          ***********/
 /*****************************        Main content                      ***********/
 /*****************************                                          ***********/
+
+
+.home__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1020px;
+    min-height: 100vh;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+
+.initialStructureContainerWrapper {
+    width: 100vw;
+    max-width: 1020px;
+    overflow-x: hidden;
+}
 
 .container {
     margin: 200px;
