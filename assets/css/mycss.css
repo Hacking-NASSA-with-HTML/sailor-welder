@@ -297,7 +297,7 @@ body {
         margin: 0;
         padding: 0;
         border: 0;
-        font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
         font-weight: 700;
         line-height: 90px;
         text-transform: uppercase;
