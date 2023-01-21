@@ -1,4 +1,6 @@
 
+const root = document.getElementById('root')
+
 function headerContent() {
     const renderHeaderContent =
         `

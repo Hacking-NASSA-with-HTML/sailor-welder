@@ -1,4 +1,3 @@
-const root = document.getElementById('root')
 
 function mainPageContent() {
     const renderMainPageContent =
