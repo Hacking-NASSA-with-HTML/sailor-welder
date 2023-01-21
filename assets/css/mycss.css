@@ -290,7 +290,7 @@ body {
         flex-direction: column;
         align-items: end;
         justify-content: center;
-        width: 66vw;
+        width: 74vw;
     }
 
     .header__menu__item .header__menu__a {
@@ -302,13 +302,12 @@ body {
         line-height: 90px;
         text-transform: uppercase;
         text-decoration: none;
-        margin: 0 0 0 10px;
     }
 
     .header__menu__item {
         height: 100%;
-        padding-top: 0;
-        margin: 0 0 0 0;
+        padding: 0;
+        margin: 0;
     }
 
     .logo__description::after {
