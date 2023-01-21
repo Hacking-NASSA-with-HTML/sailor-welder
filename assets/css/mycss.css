@@ -55,7 +55,7 @@ body {
 
 .logo__description {
     font-weight: 700;
-    font-size: calc(13px + (20 - 13) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
     line-height: 53px;
     margin-left: 50px;
     color: #0e0360;
@@ -96,10 +96,6 @@ body {
     margin: 0 0 0 20px;
 }
 
-.focused {
-    color: red;
-}
-
 .header__menu__item:not(:first-child)::before {
     content: ".";
     position: relative;
@@ -130,11 +126,10 @@ body {
     color: #1b0943;
 }
 
-.header__menu__a:focus {
-    /* color: #df6760; */
-    color: #0f1435;
+.focused {
+    /* color: #0b179f; */
+    color: #ff1100;
 }
-
 
 
 /*****************************                                          ***********/
