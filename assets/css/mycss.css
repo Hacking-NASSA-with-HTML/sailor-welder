@@ -201,10 +201,10 @@ body {
     height: 56px;
     width: 55px;
     display: none;
-    transition: transform .2s ease-in-out;
+    transition: transform .3s ease-in-out;
 }
 
-.hamburger-box.activeForHumburger {
+.hamburger-box.activeForHamburger {
     transform: rotate(270deg);
 }
 
@@ -230,7 +230,7 @@ body {
     right: 0;
 }
 
-.hamburger.activeForHumburger {
+.hamburger.activeForHamburger {
     transform: rotate(270deg);
 }
 
@@ -250,27 +250,32 @@ body {
 
     .header__container {
         display: flex;
-        justify-content: center;
+        justify-content: start;
     }
 
     .logo__container {
-        margin-left: 60px;
+        /* margin-left: 60px; */
+        width: 95vw;
+        margin-left: 0;
     }
 
-    /* .navigation__container {
-            display: none;
-        } */
+    .logo {
+        height: 100%;
+        margin-left: 30px;
+    }
 
     .logo__description {
-        font-size: 50px;
+        /* font-size: 50px; */
+        font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
     }
 
     .hamburger-box {
         display: block;
         position: absolute;
         top: 20px;
-        left: 80px;
-        transition: transform .2s ease-in-out;
+        right: 30px;
+        /* left: 80px; */
+        transition: transform .3s ease-in-out;
     }
 
     .header__container .navigation__section {
@@ -278,7 +283,7 @@ body {
         width: 100%;
         bottom: 0;
         left: 0;
-        top: 96px;
+        top: 105px;
         background: #2D303A;
         box-shadow: 40px -5px 20px rgba(0, 0, 0, 0.4);
         z-index: 150;
@@ -291,18 +296,17 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 50vh;
+        /* margin-top: 50vh; */
     }
 
     .header__menu__item .header__menu__a {
         margin: 0;
         padding: 0;
         border: 0;
-        font-family: Lato;
         /* font-size: 50px; */
-        font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
         font-weight: 700;
-        line-height: 130px;
+        line-height: 90px;
         text-transform: uppercase;
         text-decoration: none;
         margin: 0 0 0 100px;
@@ -322,10 +326,4 @@ body {
         font-size: 60px;
         color: #df6760;
     }
-
-    .logo {
-        height: 100%;
-        margin-left: 100px;
-    }
-
 }

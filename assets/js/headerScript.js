@@ -60,5 +60,5 @@ CLOSE_MOBILE_MENU.addEventListener('touchmove', () => {
 const EL = document.getElementById('hamburgerBox');
 
 EL.addEventListener('click', () => {
-    EL.classList.toggle('activeForHumburger');
+    EL.classList.toggle('activeForHamburger');
 });
