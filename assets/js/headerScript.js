@@ -34,6 +34,14 @@ function headerContent() {
 
 root.insertAdjacentHTML("beforeend", headerContent())
 
+const NAVIGATION = document.getElementById('navigation');
+
+
+NAVIGATION.addEventListener('click', (event) => {
+    NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
+    event.target.classList.add('focused');
+});
+
 
 /***************************************************** Mobile menu *****************/
 

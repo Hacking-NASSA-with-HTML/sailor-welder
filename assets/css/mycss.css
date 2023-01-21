@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
-    width: 80vw;
+    width: 90vw;
     height: 100%;
     margin: 0 auto;
 }
@@ -55,9 +55,9 @@ body {
 
 .logo__description {
     font-weight: 700;
-    /* font-size: 25px; */
-    font-size: calc(13px + (25 - 13) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(13px + (20 - 13) * ((100vw - 300px) / (1600 - 300)));
     line-height: 53px;
+    margin-left: 50px;
     color: #0e0360;
     text-transform: uppercase;
     text-decoration: none;
@@ -91,9 +91,13 @@ body {
 
 .header__menu__item {
     height: 100%;
-    padding: 0 0 0 6px;
+    padding: 0 0 0 30px;
     padding-top: 18px;
     margin: 0 0 0 20px;
+}
+
+.focused {
+    color: red;
 }
 
 .header__menu__item:not(:first-child)::before {
@@ -194,11 +198,11 @@ body {
 
 
 /*****************************                                          ***********/
-/*****************************        @media (max-width: 767px)         ***********/
+/*****************************        @media (max-width: 769px)         ***********/
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
 
     .hamburger-box {
         position: absolute;
@@ -262,6 +266,7 @@ body {
 
     .logo__description {
         font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+        margin-left: 0;
     }
 
     .navigation__container {
@@ -342,5 +347,18 @@ body {
     .header__menu__a:focus {
         /* color: #df6760; */
         color: #0f1435;
+    }
+}
+
+
+
+/*****************************                                          ***********/
+/*****************************        @media (max-width: 321px)         ***********/
+/*****************************                                          ***********/
+/*****************************                                          ***********/
+
+@media only screen and (max-width: 321px) {
+    .header__container .header__menu__wrapper {
+        width: 76vw;
     }
 }
