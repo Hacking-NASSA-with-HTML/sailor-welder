@@ -20,7 +20,7 @@ function headerContent() {
             <div class="navigation__container">
                 <nav class="navigation__section" id="navigationSection">
                     <ul class="header__menu__wrapper" id="navigation">
-                        <li class="header__menu__item"><a class="header__menu__a focused" href="#home">Home</a></li>
+                        <li class="header__menu__item"><a class="header__menu__a home focused" href="#home">Home</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#about">About</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#contact">Contact</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#backMusic">Play Background Music</a></li>
@@ -37,11 +37,18 @@ function headerContent() {
 root.insertAdjacentHTML("beforeend", headerContent())
 
 const NAVIGATION = document.getElementById('navigation');
+const LOGO = document.querySelector('.logo__description')
+const HOME = document.querySelector('.home')
 
 
 NAVIGATION.addEventListener('click', (event) => {
     NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
     event.target.classList.add('focused');
+});
+
+LOGO.addEventListener('click', (event) => {
+    NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
+    HOME.classList.add('focused');
 });
 
 
