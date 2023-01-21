@@ -46,27 +46,30 @@ NAVIGATION.addEventListener('click', (event) => {
 /***************************************************** Mobile menu *****************/
 
 const HAMBURGER = document.getElementById('hamburgerBox');
-const BODY = document.getElementById('body');
+const ROOT = document.getElementById('root');
 const CLOSE_MOBILE_MENU = document.getElementById('navigationSection');
 
 
 HAMBURGER.addEventListener('click', () => {
-    BODY.classList.toggle('active_menu');
+    ROOT.classList.toggle('active_menu');
+    HAMBURGER.classList.toggle('activeForHamburger');
 });
 
 CLOSE_MOBILE_MENU.addEventListener('click', () => {
-    BODY.classList.toggle('active_menu');
+    ROOT.classList.toggle('active_menu');
+    HAMBURGER.classList.toggle('activeForHamburger');
 });
 
 CLOSE_MOBILE_MENU.addEventListener('touchmove', () => {
-    BODY.classList.toggle('active_menu');
+    ROOT.classList.toggle('active_menu');
+    HAMBURGER.classList.toggle('activeForHamburger');
 });
 
 
 /***************************************** Animation for hamburger *****************/
 
-const EL = document.getElementById('hamburgerBox');
+// const EL = document.getElementById('hamburgerBox');
 
-EL.addEventListener('click', () => {
-    EL.classList.toggle('activeForHamburger');
-});
+// EL.addEventListener('click', () => {
+//     EL.classList.toggle('activeForHamburger');
+// });
