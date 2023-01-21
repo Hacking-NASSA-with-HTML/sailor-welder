@@ -2,15 +2,17 @@
 function homeContent() {
     const renderHomeContent =
         `
-    <div class="home__wrapper">
-        <div class="textBlock">
-            <p>Lorem5</p>
-            <p>Lorem5</p>
-            <p>Lorem5</p>
-            <p>Lorem5</p>
-            <p>Lorem5</p>
+    <section id="home">
+        <div class="home__wrapper">
+            <div class="textBlock">
+                <p>Lorem5</p>
+                <p>Lorem5</p>
+                <p>Lorem5</p>
+                <p>Lorem5</p>
+                <p>Lorem5</p>
+            </div>
         </div>
-    </div>
+    </section>
         `
     return renderHomeContent
 }
