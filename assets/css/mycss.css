@@ -30,7 +30,8 @@ body {
     max-width: 1020px;
     height: auto;
     margin: 0 auto;
-    background-color: #64bcf0;
+    /* background-color: #64bcf0; */
+    background-color: #1fb986;
     border-bottom: 6px solid #008AD8;
 }
 
