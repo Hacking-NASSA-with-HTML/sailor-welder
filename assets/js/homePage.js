@@ -5,7 +5,7 @@ function homeContent() {
     <section id="home">
         <div class="home__wrapper">
             <div class="textBlock">
-                <h1>Sailor-Welder resume 😎</h1>
+                <h1 class="headline__h1">Vyacheslav Plekhanov Sailor-Welder Resume 😎</h1>
                 <p>Home Page Content</p>
                 <p>Home Page Content</p>
                 <p>Home Page Content</p>
