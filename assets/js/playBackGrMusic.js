@@ -35,7 +35,7 @@ function handleOpenModal() {
         addToggleModalWindow.classList.add('hideModalWin')
         setTimeout(() => {
             addToggleModalWindow.classList.remove('hideModalWin')
-        }, 300)
+        }, 500)
     })
 }
 
@@ -59,7 +59,7 @@ JoyfulMusic.addEventListener('click', () => {
         addToggleModalWindow.classList.add('hideModalWin')
         setTimeout(() => {
             addToggleModalWindow.classList.remove('hideModalWin')
-        }, 300)
+        }, 500)
     } else {
         JoyfulMusicSound.pause()
         joyfulBackgroundMusic = true
@@ -67,7 +67,7 @@ JoyfulMusic.addEventListener('click', () => {
         addToggleModalWindow.classList.add('hideModalWin')
         setTimeout(() => {
             addToggleModalWindow.classList.remove('hideModalWin')
-        }, 300)
+        }, 500)
     }
 })
 
@@ -80,7 +80,7 @@ MysticalMusic.addEventListener('click', () => {
         addToggleModalWindow.classList.add('hideModalWin')
         setTimeout(() => {
             addToggleModalWindow.classList.remove('hideModalWin')
-        }, 300)
+        }, 500)
     } else {
         MysticalMusicSound.pause()
         mysticalBackgroundMusic = true
@@ -88,7 +88,7 @@ MysticalMusic.addEventListener('click', () => {
         addToggleModalWindow.classList.add('hideModalWin')
         setTimeout(() => {
             addToggleModalWindow.classList.remove('hideModalWin')
-        }, 300)
+        }, 500)
     }
 })
 
