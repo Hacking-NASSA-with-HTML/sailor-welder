@@ -52,7 +52,6 @@ let mysticalBackgroundMusic = true
 
 JoyfulMusic.addEventListener('click', () => {
     if (joyfulBackgroundMusic) {
-        // backgroundMusicDiv.innerText = 'Joyful Music is playing'
         JoyfulMusicSound.volume = 0.25
         JoyfulMusicSound.play()
         joyfulBackgroundMusic = false
@@ -62,7 +61,6 @@ JoyfulMusic.addEventListener('click', () => {
             addToggleModalWindow.classList.remove('hideModalWin')
         }, 300)
     } else {
-        // backgroundMusicDiv.innerText = 'Music is paused'
         JoyfulMusicSound.pause()
         joyfulBackgroundMusic = true
         addToggleModalWindow.classList.remove('openModalWin')
@@ -75,7 +73,6 @@ JoyfulMusic.addEventListener('click', () => {
 
 MysticalMusic.addEventListener('click', () => {
     if (mysticalBackgroundMusic) {
-        // backgroundMusicDiv.innerText = 'Mystical Music is playing'
         MysticalMusicSound.volume = 0.25
         MysticalMusicSound.play()
         mysticalBackgroundMusic = false
@@ -85,7 +82,6 @@ MysticalMusic.addEventListener('click', () => {
             addToggleModalWindow.classList.remove('hideModalWin')
         }, 300)
     } else {
-        // backgroundMusicDiv.innerText = 'Music is paused'
         MysticalMusicSound.pause()
         mysticalBackgroundMusic = true
         addToggleModalWindow.classList.remove('openModalWin')
@@ -97,11 +93,9 @@ MysticalMusic.addEventListener('click', () => {
 })
 
 JoyfulMusicSound.addEventListener('ended', () => {
-    // backgroundMusicDiv.innerText = 'No Background Music'
     joyfulBackgroundMusic = true
 })
 
 MysticalMusicSound.addEventListener('ended', () => {
-    // backgroundMusicDiv.innerText = 'No Background Music'
     mysticalBackgroundMusic = true
 })
