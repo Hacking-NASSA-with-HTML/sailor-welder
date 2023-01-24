@@ -36,20 +36,22 @@ function headerContent() {
 
 root.insertAdjacentHTML("beforeend", headerContent())
 
+
+const PLAY = document.getElementById('play')
 const NAVIGATION = document.getElementById('navigation');
 const LOGO = document.querySelector('.logo__description')
 const HOME = document.querySelector('.home')
 
 
 NAVIGATION.addEventListener('click', (event) => {
-    NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
-    NAVIGATION.querySelectorAll('span').forEach(el => el.classList.remove('focused'));
-    event.target.classList.add('focused');
+    if (event.target !== PLAY) {
+        NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
+        event.target.classList.add('focused');
+    }
 });
 
 LOGO.addEventListener('click', (event) => {
     NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
-    NAVIGATION.querySelectorAll('span').forEach(el => el.classList.remove('focused'));
     HOME.classList.add('focused');
 });
 

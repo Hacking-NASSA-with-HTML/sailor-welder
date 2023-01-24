@@ -1,5 +1,6 @@
-const play = document.getElementById('play')
-play.addEventListener('click', () => handleOpenModal())
+// const PLAY = document.getElementById('play')
+// PLAY declared in headerScript.js file
+PLAY.addEventListener('click', () => handleOpenModal())
 
 
 function renderModal() {
