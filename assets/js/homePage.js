@@ -4,12 +4,15 @@ function homeContent() {
         `
     <section id="home">
         <div class="home__wrapper">
-            <div class="textBlock">
-                <h1 class="headline__h1">Vyacheslav Plekhanov ⛵ Sailor-Welder 🎇 Resume 😎</h1>
-                <p>Home Page Content</p>
-                <p>Home Page Content</p>
-                <p>Home Page Content</p>
-                <p>Home Page Content</p>
+            <div class="home_text_block">
+                <p class="welcome_home_module">Welcome 👋</p>
+                <p class="home_module_paragraph">You are on the page of</p>
+                <h1 class="headline_h1">
+                    Vyacheslav Plekhanov ⛵ Sailor-Welder 🎇 Resume 😎
+                </h1>
+                <p class="home_module_paragraph">and you can learn here</p>
+                <p class="home_module_paragraph">how we can earn money</p>
+                <p class="home_module_paragraph">with good ship's welding maintenance</p>
             </div>
         </div>
     </section>

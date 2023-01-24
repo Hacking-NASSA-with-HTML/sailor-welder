@@ -151,11 +151,28 @@ body {
     margin: 0 auto;
 }
 
-.textBlock {
+.home_text_block {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    padding: 0 5vw;
+}
+
+.headline_h1 {
+    text-align: center;
+    color: white;
+}
+
+.welcome_home_module {
+    font-size: calc(30px + (130 - 30) * ((100vw - 300px)/ (1600 - 300)));
+    color: red;
+}
+
+.home_module_paragraph {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
+    color: #0e0360;
 }
 
 .about__wrapper {
