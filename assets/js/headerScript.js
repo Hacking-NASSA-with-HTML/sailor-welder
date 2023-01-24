@@ -43,11 +43,13 @@ const HOME = document.querySelector('.home')
 
 NAVIGATION.addEventListener('click', (event) => {
     NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
+    NAVIGATION.querySelectorAll('span').forEach(el => el.classList.remove('focused'));
     event.target.classList.add('focused');
 });
 
 LOGO.addEventListener('click', (event) => {
     NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
+    NAVIGATION.querySelectorAll('span').forEach(el => el.classList.remove('focused'));
     HOME.classList.add('focused');
 });
 
