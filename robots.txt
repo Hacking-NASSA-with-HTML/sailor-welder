@@ -1,3 +1,22 @@
-https://hacking-nassa-with-html.github.io/sailor-welder/sitemap.xml
 User-agent: *
-Disallow:
+Allow: /assets/img/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/media/
+Sitemap: https://hacking-nassa-with-html.github.io/sailor-welder/sitemap.xml
+
+
+User-agent: Yandex
+Allow: /assets/img/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/media/
+Sitemap: https://hacking-nassa-with-html.github.io/sailor-welder/sitemap.xml
+
+
+User-agent: Googlebot
+Allow: /assets/img/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/media/
+Sitemap: https://hacking-nassa-with-html.github.io/sailor-welder/sitemap.xml
