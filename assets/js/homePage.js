@@ -5,7 +5,7 @@ function homeContent() {
     <section id="home">
         <div class="home__wrapper">
             <div class="home_text_block">
-                <p class="welcome_home_module">Welcome 👋</p>
+                <p class="welcome_home_module_paragraph">Welcome 👋</p>
                 <p class="home_module_paragraph">You are on the page of</p>
                 <h1 class="headline_h1">
                     Vyacheslav Plekhanov ⛵ Sailor-Welder 🎇 Resume 😎

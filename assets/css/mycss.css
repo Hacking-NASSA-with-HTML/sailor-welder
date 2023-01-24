@@ -145,9 +145,10 @@ body {
     background-color: #25cbf5;
     width: 100vw;
     max-width: 1020px;
-    min-height: 100vh;
-    max-height: 100vh;
-    height: 100vh;
+    height: auto;
+    /* min-height: 100vh; */
+    /* max-height: 100vh;
+    height: 100vh; */
     margin: 0 auto;
 }
 
@@ -157,16 +158,18 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 0 5vw;
+    padding: 20vh 5vw;
 }
 
 .headline_h1 {
     text-align: center;
+    font-size: calc(26px + (40 - 26) * ((100vw - 300px)/ (1600 - 300)));
+    font-weight: 900;
     color: white;
 }
 
-.welcome_home_module {
-    font-size: calc(30px + (130 - 30) * ((100vw - 300px)/ (1600 - 300)));
+.welcome_home_module_paragraph {
+    font-size: calc(30px + (100 - 30) * ((100vw - 300px)/ (1600 - 300)));
     color: red;
 }
 
