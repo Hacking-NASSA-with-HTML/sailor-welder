@@ -383,7 +383,7 @@ body {
     .header__container {
         display: flex;
         justify-content: start;
-        height: 12vh;
+        height: 94px;
     }
 
     .logo__container {
