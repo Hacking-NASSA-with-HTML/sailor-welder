@@ -178,6 +178,11 @@ body {
     color: #0e0360;
 }
 
+
+/*****************************                                          ***********/
+/*****************************            Section About                 ***********/
+/*****************************                                          ***********/
+
 .about__wrapper {
     display: flex;
     justify-content: center;
@@ -186,10 +191,21 @@ body {
     width: 100vw;
     max-width: 1020px;
     min-height: 100vh;
-    max-height: 100vh;
-    height: 100vh;
     margin: 0 auto;
 }
+
+/* .about_text_block {} */
+.about_img_wrapper {
+    display: flex;
+}
+
+.about_img {
+    width: 250px;
+    height: auto;
+    margin-top: 24vh;
+}
+
+
 
 .contact__wrapper {
     display: flex;
