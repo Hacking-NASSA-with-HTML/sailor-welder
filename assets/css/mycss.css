@@ -30,7 +30,7 @@ body {
     max-width: 1020px;
     height: auto;
     margin: 0 auto;
-    background-color: #1fb986;
+    background-color: rgb(31, 185, 134, 0.9);
     border-bottom: 6px solid #008AD8;
 }
 
