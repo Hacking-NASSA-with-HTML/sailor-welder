@@ -383,7 +383,7 @@ body {
     .header__container {
         display: flex;
         justify-content: start;
-        height: 94px;
+        height: 12vh;
     }
 
     .logo__container {
@@ -411,7 +411,7 @@ body {
         /* pop up from the left */
         /* left: 0; */
         right: 0;
-        top: 94px;
+        top: 12vh;
         background: #0e215e;
         box-shadow: 40px -5px 20px rgba(7, 23, 94, 0.4);
         z-index: 150;
