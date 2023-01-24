@@ -190,11 +190,19 @@ body {
     background-color: #5bcce8;
     width: 100vw;
     max-width: 1020px;
-    min-height: 100vh;
+    height: auto;
     margin: 0 auto;
 }
 
-/* .about_text_block {} */
+.about_text_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20vh 5vw;
+}
+
 .about_img_wrapper {
     display: flex;
 }
@@ -202,10 +210,14 @@ body {
 .about_img {
     width: 250px;
     height: auto;
-    margin-top: 24vh;
+    margin-top: 10vh;
+    border-radius: 5px;
 }
 
 
+/*****************************                                          ***********/
+/*****************************            Section Contact               ***********/
+/*****************************                                          ***********/
 
 .contact__wrapper {
     display: flex;
