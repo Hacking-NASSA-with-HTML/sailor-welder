@@ -7,5 +7,7 @@
 <url>
   <loc>https://hacking-nassa-with-html.github.io/sailor-welder/</loc>
   <lastmod>2023-01-23T18:30:52+00:00</lastmod>
+  <priority>1</priority>
+  <changefreq>always</changefreq>
 </url>
 </urlset>
