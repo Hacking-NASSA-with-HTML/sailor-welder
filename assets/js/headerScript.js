@@ -23,7 +23,7 @@ function headerContent() {
                         <li class="header__menu__item"><a class="header__menu__a home focused" href="#home">Home</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#about">About</a></li>
                         <li class="header__menu__item"><a class="header__menu__a" href="#contact">Contact</a></li>
-                        <li class="header__menu__item"><a class="header__menu__a" id="play">Play Background Music</a></li>
+                        <li class="header__menu__item"><span class="header__menu__a" id="play">Play Background Music</span></li>
                     </ul>
                 </nav>
             </div>
