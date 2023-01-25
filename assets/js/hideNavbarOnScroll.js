@@ -4,11 +4,11 @@ let lastScrollTop = 0
 
 
 window.addEventListener('scroll', () => {
-    let scrollTop = window.pageYOffset
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop
     if (scrollTop > lastScrollTop) {
-        headerWrapper.style.top = "-80px"
+        headerWrapper.style.transform = "translate3d(0, -100%, 0)"
     } else {
-        headerWrapper.style.top = "0"
+        headerWrapper.style.transform = "translate3d(0, 0, 0)"
     }
     lastScrollTop = scrollTop
 })
