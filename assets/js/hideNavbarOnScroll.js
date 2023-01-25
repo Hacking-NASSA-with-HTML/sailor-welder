@@ -6,9 +6,9 @@ let lastScrollTop = 0
 window.addEventListener('scroll', () => {
     let scrollTop = window.pageYOffset
     if (scrollTop > lastScrollTop) {
-        headerWrapper.style.transform = "translate3d(0, -100%, 0)"
+        headerWrapper.style.top = "-80px"
     } else {
-        headerWrapper.style.transform = "translate3d(0, 0, 0)"
+        headerWrapper.style.top = "0"
     }
     lastScrollTop = scrollTop
 })
