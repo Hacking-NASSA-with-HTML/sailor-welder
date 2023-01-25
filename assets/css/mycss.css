@@ -103,7 +103,7 @@ body {
 .header__menu__a {
     color: #ffffff;
     font-size: calc(12px + (16 - 12) * ((100vw - 300px)/ (1600 - 300)));
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     transition: all .3s ease;
