@@ -104,7 +104,7 @@ body {
 } */
 
 .header__menu__a {
-    color: #ffffff;
+    color: #47f085;
     font-size: calc(12px + (16 - 12) * ((100vw - 300px)/ (1600 - 300)));
     font-weight: 600;
     text-transform: uppercase;
@@ -119,16 +119,16 @@ body {
 } */
 
 .header__menu__a:hover {
-    color: #a12323;
+    color: red;
 }
 
 .header__menu__a:active {
-    color: white;
+    color: #a12323;
     box-shadow: 2px 2px 5px
 }
 
 .focused {
-    color: red;
+    color: white;
 }
 
 
