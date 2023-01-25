@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     overflow-x: hidden;
-    height: auto;
+    height: 90px;
     margin: 0 auto;
 }
 
@@ -456,7 +456,6 @@ body {
     .header__container {
         display: flex;
         justify-content: start;
-        height: 90px;
     }
 
     .logo__container {
