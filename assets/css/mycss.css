@@ -54,7 +54,8 @@ body {
     font-weight: 700;
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
     margin-left: 50px;
-    color: #0e0360;
+    /* color: #0e0360; */
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -127,7 +128,7 @@ body {
 }
 
 .focused {
-    color: #010810;
+    color: #fbfb34;
 }
 
 
