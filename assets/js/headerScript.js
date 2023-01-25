@@ -4,7 +4,7 @@ const root = document.getElementById('root')
 function headerContent() {
     const renderHeaderContent =
         `
-<div class="header__wrapper">
+<div class="header__wrapper" id="headerWrapper">
     <header class="header">
         <div class="header__container">
             <div class="hamburger-box" id="hamburgerBox">

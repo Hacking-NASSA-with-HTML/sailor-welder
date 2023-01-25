@@ -21,6 +21,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
+    transition: all .5s ease;
 }
 
 .header {
@@ -104,7 +105,8 @@ body {
 } */
 
 .header__menu__a {
-    color: #47f085;
+    /* color: #47f085; */
+    color: white;
     font-size: calc(12px + (16 - 12) * ((100vw - 300px)/ (1600 - 300)));
     font-weight: 600;
     text-transform: uppercase;
@@ -128,7 +130,7 @@ body {
 }
 
 .focused {
-    color: white;
+    color: #47f085;
 }
 
 
