@@ -48,12 +48,12 @@ NAVIGATION.addEventListener('click', (event) => {
         NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'))
         event.target.classList.add('focused')
     }
-});
+})
 
 LOGO.addEventListener('click', (event) => {
     NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'))
     HOME.classList.add('focused')
-});
+})
 
 
 /***************************************************** Mobile menu *****************/
@@ -70,19 +70,10 @@ HAMBURGER.addEventListener('click', () => {
 
 CLOSE_MOBILE_MENU.addEventListener('click', () => {
     ROOT.classList.toggle('active_menu')
-    HAMBURGER.classList.toggle('activeForHamburger');
+    HAMBURGER.classList.toggle('activeForHamburger')
 })
 
 CLOSE_MOBILE_MENU.addEventListener('touchmove', () => {
     ROOT.classList.toggle('active_menu')
     HAMBURGER.classList.toggle('activeForHamburger')
 }, { passive: true })
-
-
-/***************************************** Animation for hamburger *****************/
-
-// const EL = document.getElementById('hamburgerBox');
-
-// EL.addEventListener('click', () => {
-//     EL.classList.toggle('activeForHamburger');
-// });
