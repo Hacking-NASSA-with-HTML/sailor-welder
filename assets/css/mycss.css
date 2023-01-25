@@ -64,6 +64,7 @@ body {
     top: 0;
     left: 0;
     font-size: 26px;
+    font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
     color: #df6760;
 }
 
@@ -120,12 +121,12 @@ body {
 }
 
 .header__menu__a:active {
-    color: #ff1100;
+    color: #0e0360;
     box-shadow: 2px 2px 5px
 }
 
 .focused {
-    color: #ff1100;
+    color: #3e1d24;
 }
 
 
@@ -163,7 +164,7 @@ body {
 
 .welcome_home_module_paragraph {
     font-size: calc(30px + (100 - 30) * ((100vw - 300px)/ (1600 - 300)));
-    color: red;
+    color: #a12323;
 }
 
 .home_module_paragraph {
