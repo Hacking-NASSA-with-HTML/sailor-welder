@@ -98,7 +98,7 @@ body {
     left: -4px;
     font-weight: 700;
     font-size: 19px;
-    color: #3e4252;
+    color: #010810;
 }
 
 .header__menu__a {
@@ -126,7 +126,7 @@ body {
 }
 
 .focused {
-    color: #3e1d24;
+    color: #010810;
 }
 
 
