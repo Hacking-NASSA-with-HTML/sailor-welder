@@ -28,8 +28,9 @@ body {
     max-width: 1020px;
     height: auto;
     margin: 0 auto;
-    background-color: rgb(31, 185, 134);
-    border-bottom: 6px solid #008AD8;
+    /* background-color: rgb(31, 185, 134); */
+    background-color: #0a8051;
+    border-bottom: 6px solid #00d89e;
 }
 
 .header__container {
@@ -523,7 +524,7 @@ body {
     }
 
     .focused {
-        color: red;
+        color: #47f085;
     }
 
     /****************************** Modal Music Responsive ****************** */
