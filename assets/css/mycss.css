@@ -24,8 +24,6 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
     width: 100vw;
     max-width: 1020px;
     height: auto;
@@ -36,16 +34,14 @@ body {
 
 .header__container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
-    width: 90vw;
     height: auto;
     margin: 0 auto;
 }
 
 .logo__container {
-    width: 20vw;
+    width: 30%;
     height: auto;
 }
 
@@ -72,7 +68,7 @@ body {
 }
 
 .navigation__container {
-    width: 60vw;
+    width: 70%;
     height: auto;
 }
 
@@ -85,6 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-right: 50px;
 }
 
 .header__menu__item {
@@ -105,7 +102,7 @@ body {
 
 .header__menu__a {
     color: #ffffff;
-    font-size: 14px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px)/ (1600 - 300)));
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
@@ -145,9 +142,6 @@ body {
     width: 100vw;
     max-width: 1020px;
     height: auto;
-    /* min-height: 100vh; */
-    /* max-height: 100vh;
-    height: 100vh; */
     margin: 0 auto;
 }
 
@@ -453,12 +447,11 @@ body {
     .header__container {
         display: flex;
         justify-content: start;
-        height: 12vh;
+        height: 90px;
     }
 
     .logo__container {
         width: 95vw;
-        margin-left: 0;
     }
 
     .logo {
@@ -467,7 +460,6 @@ body {
 
     .logo__description {
         font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
-        margin-left: 0;
     }
 
     .navigation__container {
@@ -481,7 +473,7 @@ body {
         /* pop up from the left */
         /* left: 0; */
         right: 0;
-        top: 12vh;
+        top: 90px;
         background: #0e215e;
         box-shadow: 40px -5px 20px rgba(7, 23, 94, 0.4);
         z-index: 150;
@@ -549,5 +541,9 @@ body {
 @media only screen and (max-width: 321px) {
     .header__container .header__menu__wrapper {
         width: 76vw;
+    }
+
+    .logo__description {
+        margin-left: 10px;
     }
 }
