@@ -159,7 +159,7 @@ body {
     text-align: center;
     font-size: calc(26px + (40 - 26) * ((100vw - 300px)/ (1600 - 300)));
     font-weight: 900;
-    color: white;
+    color: #a12323;
 }
 
 .welcome_home_module_paragraph {
