@@ -38,45 +38,45 @@ root.insertAdjacentHTML("beforeend", headerContent())
 
 
 const PLAY = document.getElementById('play')
-const NAVIGATION = document.getElementById('navigation');
+const NAVIGATION = document.getElementById('navigation')
 const LOGO = document.querySelector('.logo__description')
 const HOME = document.querySelector('.home')
 
 
 NAVIGATION.addEventListener('click', (event) => {
     if (event.target !== PLAY) {
-        NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
-        event.target.classList.add('focused');
+        NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'))
+        event.target.classList.add('focused')
     }
 });
 
 LOGO.addEventListener('click', (event) => {
-    NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'));
-    HOME.classList.add('focused');
+    NAVIGATION.querySelectorAll('a').forEach(el => el.classList.remove('focused'))
+    HOME.classList.add('focused')
 });
 
 
 /***************************************************** Mobile menu *****************/
 
-const HAMBURGER = document.getElementById('hamburgerBox');
-const ROOT = document.getElementById('root');
-const CLOSE_MOBILE_MENU = document.getElementById('navigationSection');
+const HAMBURGER = document.getElementById('hamburgerBox')
+const ROOT = document.getElementById('root')
+const CLOSE_MOBILE_MENU = document.getElementById('navigationSection')
 
 
 HAMBURGER.addEventListener('click', () => {
-    ROOT.classList.toggle('active_menu');
-    HAMBURGER.classList.toggle('activeForHamburger');
-});
+    ROOT.classList.toggle('active_menu')
+    HAMBURGER.classList.toggle('activeForHamburger')
+})
 
 CLOSE_MOBILE_MENU.addEventListener('click', () => {
-    ROOT.classList.toggle('active_menu');
+    ROOT.classList.toggle('active_menu')
     HAMBURGER.classList.toggle('activeForHamburger');
-});
+})
 
 CLOSE_MOBILE_MENU.addEventListener('touchmove', () => {
-    ROOT.classList.toggle('active_menu');
-    HAMBURGER.classList.toggle('activeForHamburger');
-});
+    ROOT.classList.toggle('active_menu')
+    HAMBURGER.classList.toggle('activeForHamburger')
+}, { passive: true })
 
 
 /***************************************** Animation for hamburger *****************/
