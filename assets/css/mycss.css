@@ -234,8 +234,18 @@ body {
     transition: 0.3s ease;
 }
 
+.contact_section_app_link a {
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+}
+
 .contact_section_app_link:hover {
     transform: scale(1.1);
+}
+
+.contact_section_app_link:hover a {
+    color: red;
 }
 
 
