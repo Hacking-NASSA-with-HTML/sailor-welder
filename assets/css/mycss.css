@@ -222,7 +222,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #25cbf5;
+    background-color: #040e60;
     width: 100vw;
     max-width: 1020px;
     height: auto;
@@ -235,7 +235,7 @@ body {
 }
 
 .contact_section_app_link a {
-    color: #a12323;
+    color: #58e28d;
     outline: none;
     transition: 0.3s ease;
 }
@@ -250,7 +250,7 @@ body {
 
 .contact__wrapper p {
     font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
-    color: #0e0360;
+    color: white;
 }
 
 
