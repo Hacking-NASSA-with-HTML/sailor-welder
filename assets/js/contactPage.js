@@ -17,6 +17,7 @@ function contactContent() {
                 <p>Know how to improve it?</p>
                 <p>Send a pull request to the GitHub!</p>
                 <p>I would be happy to merge it🙂</p>
+                <p>And Add You as a Collaborator😎</p>
                 <p>Let's Learn and Earn💲💰 Together!</p>
 
             </div>
