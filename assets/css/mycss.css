@@ -229,6 +229,19 @@ body {
     margin: 0 auto;
 }
 
+.contact_section_app_link {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
+    color: white;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s ease !important;
+}
+
+.contact_section_app_link:hover {
+    color: red;
+    transform: scale(1.3);
+}
+
 
 
 /*****************************                                          ***********/

@@ -12,7 +12,7 @@ function contactContent() {
                 <p>Earn💲money for Yourself!</p>
                 <p>Like it? Give that repo a Star⭐</p>
                 <p>
-                    <a class="app_link" href="https://github.com/Hacking-NASSA-with-HTML/sailor-welder/" target="_blank" rel="noopener noreferrer">Give it a Star on github</a>
+                    <a class="contact_section_app_link" href="https://github.com/Hacking-NASSA-with-HTML/sailor-welder/" target="_blank" rel="noopener noreferrer">Give it a Star on github</a>
                 </p>
                 <p>Know how to improve it?</p>
                 <p>Send a pull request to the GitHub!</p>
