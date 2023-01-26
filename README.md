@@ -12,6 +12,14 @@ See the project on [Github Pages](https://hacking-nassa-with-html.github.io/sail
 
 Please 🙌 let me know if you have found any issues ⭐
 
+Know how to improve it?
+
+Send a pull request to the GitHub!
+
+I would be happy to merge it🙂
+
+And Add You as a Collaborator😎
+
 And May Your Code Always Works Too 🍾🥂
 
 
