@@ -225,9 +225,7 @@ body {
     background-color: #25cbf5;
     width: 100vw;
     max-width: 1020px;
-    min-height: 100vh;
-    max-height: 100vh;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
 }
 
