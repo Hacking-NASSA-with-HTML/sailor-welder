@@ -13,6 +13,7 @@ function homeContent() {
                 <p class="home_module_paragraph">and you can learn here</p>
                 <p class="home_module_paragraph">how we can earn money</p>
                 <p class="home_module_paragraph">with good ship's welding maintenance</p>
+                <p class="home_module_paragraph">or Your Dream's App web development🙂</p>
             </div>
         </div>
     </section>
