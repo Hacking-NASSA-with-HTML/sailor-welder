@@ -1,3 +1,5 @@
+![](https://github.com/Hacking-NASSA-with-HTML/sailor-welder/blob/main/assets/img/FB_open_graph_1200x630_image.jpg)
+
 # Vyacheslav Plekhanov Sailor-Welder Resume 😎
 
 ## Vyacheslav Plekhanov. Problem-Solve Minded a Reliable ⛵ Sailor-Welder🎇 . Need Getting Your Tasks Done? Let's Talk 📞  📩 !
