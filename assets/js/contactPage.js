@@ -4,7 +4,7 @@ function contactContent() {
         `
     <section id="contact">
         <div class="contact__wrapper">
-            <div class="about_text_block">
+            <div class="section_text_block">
                 <p>My new project, guys 😊</p>
                 <p>FULLY RESPONSIVE</p>
                 <p>AND BLAZINGLY FAST. Enjoy.</p>

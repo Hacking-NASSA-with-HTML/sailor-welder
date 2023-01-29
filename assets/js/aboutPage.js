@@ -4,7 +4,7 @@ function aboutContent() {
         `
     <section id="about">
         <div class="about__wrapper">
-            <div class="about_text_block">
+            <div class="section_text_block">
                 <p class="darkblue_module_paragraph">About Page Content</p>
                 <p class="darkblue_module_paragraph">About Page Content</p>
                 <p class="darkblue_module_paragraph">About Page Content</p>
