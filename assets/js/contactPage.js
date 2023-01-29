@@ -27,7 +27,9 @@ function contactContent() {
                     <img data-src="./assets/img/work-examples/work_example_2_424_565.webp" width="106" height="132" srcset="./assets/img/work-examples/work_example_2_424_565.webp 1x, ./assets/img/work-examples/work_example_2_848_1130.webp 2x" class="about_img lazyload" alt="Work example 2">
                 </div>
                 <p>Work example 2</p>
-
+                <p class="contact_section_app_link">
+                    <a href="https://www.linkedin.com/in/vyacheslav-plekhanov/" target="_blank" rel="noopener noreferrer">Write me a letter or just say "Hi👋"</a>
+                </p>
             </div>
         </div>
     </section>
