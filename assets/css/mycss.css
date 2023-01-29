@@ -171,7 +171,7 @@ body {
     color: #a12323;
 }
 
-.home_module_paragraph {
+.darkblue_module_paragraph {
     font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
     color: #0e0360;
 }
