@@ -365,7 +365,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .about_img {
-        width: 36vw;
+        width: 40vw;
         height: auto;
         margin-top: 10vh;
         border-radius: 5px;
