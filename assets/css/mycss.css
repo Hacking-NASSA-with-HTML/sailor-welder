@@ -219,6 +219,7 @@ body {
 
 .contact_section_app_link:hover a {
     color: red;
+    text-decoration: none;
 }
 
 .contact__wrapper p {
