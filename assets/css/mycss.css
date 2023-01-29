@@ -351,7 +351,7 @@ body {
 
 @media (min-width: 100px) and (max-width: 767px) {
     .about_img {
-        width: 70vw;
+        width: 90vw;
         height: auto;
         margin-top: 10vh;
         border-radius: 5px;
