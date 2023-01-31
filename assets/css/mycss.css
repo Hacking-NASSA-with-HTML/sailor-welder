@@ -206,6 +206,11 @@ body {
     margin: 0 auto;
 }
 
+.contact__wrapper p {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
+    color: white;
+}
+
 .contact_section_app_link {
     font-size: calc(25px + (30 - 25) * ((100vw - 300px)/ (1600 - 300)));
     transition: 0.3s ease;
@@ -225,11 +230,6 @@ body {
 .contact_section_app_link:hover a {
     color: red;
     text-decoration: none;
-}
-
-.contact__wrapper p {
-    font-size: calc(20px + (30 - 20) * ((100vw - 300px)/ (1600 - 300)));
-    color: white;
 }
 
 
