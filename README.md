@@ -22,7 +22,7 @@ I would be happy to merge it🙂
 
 And Add You as a Collaborator😎
 
-And May Your Code Always Works Too 🍾🥂
+And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎
 
 
 ![](https://github.com/Hacking-NASSA-with-HTML/Array_iteration_cheatsheet/blob/main/star.gif)
