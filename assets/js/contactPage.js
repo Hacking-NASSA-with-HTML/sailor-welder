@@ -30,6 +30,8 @@ function contactContent() {
                 <p class="contact_section_app_link">
                     <a href="https://www.linkedin.com/in/vyacheslav-plekhanov/" target="_blank" rel="noopener noreferrer">Write me a letter or just say "Hi👋"</a>
                 </p>
+                <p>Have a Blessed Time</p>
+                <p>And May Your Code Always Works Too 🍾🥂</p>
             </div>
         </div>
     </section>
