@@ -82,7 +82,7 @@ body {
 
 .header__menu__wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     list-style: none;
     margin-right: 50px;
@@ -558,5 +558,9 @@ body {
 
     .logo__description {
         margin-left: 10px;
+    }
+
+    .header__menu__item .header__menu__a {
+        font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
     }
 }
