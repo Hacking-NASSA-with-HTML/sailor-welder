@@ -29,7 +29,10 @@ function aboutContent() {
                 <p class="darkblue_module_paragraph">Vyacheslav Plekhanov Sailor ⛵ Welder 🎇 Navy Fitter </p>
                 <p class="darkblue_module_paragraph">in Merchant Navy in the cabin.</p>
                 <p class="darkblue_module_paragraph">Need Getting Your Tasks Done?</p>
-                <p class="darkblue_module_paragraph">Let's Talk 📞 📩 !</p>
+                <p class="darkblue_module_paragraph">Let's Talk 📞 📩 👇 !</p>
+                <p class="contact_section_app_link">
+                    <a href="https://www.linkedin.com/in/vyacheslav-plekhanov/" target="_blank" rel="noopener noreferrer">Write me a letter or just say "Hi👋"</a>
+                </p>
             </div>
         </div>
     </section>

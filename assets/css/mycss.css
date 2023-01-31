@@ -178,6 +178,10 @@ body {
     margin: 0 auto;
 }
 
+.about__wrapper .contact_section_app_link a {
+    color: #0e0360;
+}
+
 .about_img_wrapper {
     display: flex;
 }
