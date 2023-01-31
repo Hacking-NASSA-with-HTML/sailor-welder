@@ -8,7 +8,7 @@ function homeContent() {
                 <p class="welcome_home_module_paragraph">Welcome 👋</p>
                 <p class="darkblue_module_paragraph">You are on the page of</p>
                 <h1 class="headline_h1">
-                    Vyacheslav Plekhanov ⛵ Sailor-Welder 🎇 Resume 😎
+                    Vyacheslav Plekhanov ⛵ Sailor-Welder 🎇 Navy Fitter Resume 😎
                 </h1>
                 <p class="darkblue_module_paragraph">and you can learn here</p>
                 <p class="darkblue_module_paragraph">how we can earn money</p>
