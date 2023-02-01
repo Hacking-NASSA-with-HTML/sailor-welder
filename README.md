@@ -4,9 +4,9 @@
 
 ## Vyacheslav Plekhanov. Problem-Solve Minded a Reliable ⛵ Sailor-Welder🎇 . Need Getting Your Tasks Done? Let's Talk 📞  📩 !
 
-| NOTE: |
+<!-- | NOTE: |
 | :--- |
-| Work in progress |
+| Work in progress | -->
 
 Give this repo a Star ⭐
 
