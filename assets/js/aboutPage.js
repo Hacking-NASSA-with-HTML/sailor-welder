@@ -9,13 +9,13 @@ function aboutContent() {
                 <p class="darkblue_module_paragraph">I have worked in the welding </p>
                 <p class="darkblue_module_paragraph">and maritime industry </p>
                 <p class="darkblue_module_paragraph">for several years.</p>
-                <p class="darkblue_module_paragraph">I am experienced in welding, </p>
-                <p class="darkblue_module_paragraph">fabricating, and repairing </p>
+                <p class="darkblue_module_paragraph">I have experience in welding, </p>
+                <p class="darkblue_module_paragraph">in fabricating and repairing </p>
                 <p class="darkblue_module_paragraph">metal structures.</p>
                 <p class="darkblue_module_paragraph">I am also proficient in </p>
                 <p class="darkblue_module_paragraph">using computers and hand tools.</p>
                 <p class="darkblue_module_paragraph">A hard worker who is </p>
-                <p class="darkblue_module_paragraph">reliable and detail oriented.</p>
+                <p class="darkblue_module_paragraph">reliable and detail-oriented.</p>
                 <p class="darkblue_module_paragraph">Interested in opportunities </p>
                 <p class="darkblue_module_paragraph">that are available in </p>
                 <p class="darkblue_module_paragraph">the maritime industry.</p>
