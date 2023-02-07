@@ -8,7 +8,15 @@
 | :--- |
 | Work in progress | -->
 
-Give this repo a Star ⭐
+FULLY RESPONSIVE
+
+AND BLAZINGLY FAST. Enjoy.
+
+Customize and Sell It to Your customers!💲💸💰
+
+Earn💲money for Yourself!
+
+Like it? Give that repo a Star⭐
 
 See the project on [Github Pages](https://hacking-nassa-with-html.github.io/sailor-welder/) .
 
