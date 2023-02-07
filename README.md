@@ -10,7 +10,7 @@
 
 FULLY RESPONSIVE
 
-AND BLAZINGLY FAST. Enjoy.
+AND BLAZINGLY FAST Landing Page! Enjoy!
 
 Customize and Sell It to Your customers!💲💸💰
 
