@@ -49,6 +49,7 @@ JoyfulMusic.addEventListener("click", () => {
     if (joyfulBackgroundMusic) {
         if (!mysticalBackgroundMusic) {
             MysticalMusicSound.pause();
+            MysticalMusicSound.currentTime = 0;
             mysticalBackgroundMusic = true;
         }
         JoyfulMusicSound.volume = 0.25;
@@ -74,6 +75,7 @@ MysticalMusic.addEventListener("click", () => {
     if (mysticalBackgroundMusic) {
         if (!joyfulBackgroundMusic) {
             JoyfulMusicSound.pause();
+            JoyfulMusicSound.currentTime = 0;
             joyfulBackgroundMusic = true;
         }
         MysticalMusicSound.volume = 0.25;
