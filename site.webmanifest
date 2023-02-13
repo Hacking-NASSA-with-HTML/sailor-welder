@@ -17,6 +17,6 @@
     ],
     "theme_color": "#040e60",
     "background_color": "#25cbf5",
-    "start_url": "/",
+    "start_url": "/sailor-welder/index.html",
     "display": "standalone"
 }
