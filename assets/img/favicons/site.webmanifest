@@ -17,6 +17,6 @@
     ],
     "theme_color": "#040e60",
     "background_color": "#25cbf5",
-    "start_url": "https://hacking-nassa-with-html.github.io/sailor-welder/",
+    "start_url": "/",
     "display": "standalone"
 }
