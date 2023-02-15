@@ -7,7 +7,7 @@ function contactContent() {
             <div class="section_text_block">
                 <p>My new project, guys 😊</p>
                 <p>FULLY RESPONSIVE</p>
-                <p>AND BLAZINGLY FAST. Enjoy.</p>
+                <p>AND BLAZING FAST. Enjoy.</p>
                 <p>Customize and Sell It to Your customers!💲💸💰</p>
                 <p>Earn💲money for Yourself!</p>
                 <p>Like it? Give that repo a Star⭐</p>
