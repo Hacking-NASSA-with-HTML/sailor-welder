@@ -204,6 +204,7 @@ body {
     max-width: 1020px;
     height: auto;
     margin: 0 auto;
+    padding: 0 0 25vh 0;
 }
 
 .contact__wrapper p {
