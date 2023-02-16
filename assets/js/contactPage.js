@@ -32,6 +32,7 @@ function contactContent() {
                 </p>
                 <p>Have a Blessed Time!</p>
                 <p>And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎</p>
+                <p>2023</p>
             </div>
         </div>
     </section>
