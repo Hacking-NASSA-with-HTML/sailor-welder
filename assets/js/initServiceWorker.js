@@ -2,7 +2,8 @@ const onWorkerReady = () => {
     console.log('Service Worker is ready')
 }
 
-navigator.serviceWorker.register('/sailor-welder/assets/js/serviceWorker.js')
+// navigator.serviceWorker.register('/sailor-welder/assets/js/serviceWorker.js')
+navigator.serviceWorker.register('/sailor-welder/serviceWorker.js')
 
 navigator.serviceWorker.ready.then(onWorkerReady())
 
