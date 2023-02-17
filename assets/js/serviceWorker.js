@@ -5,6 +5,7 @@ const initCache = () => {
         return cache.addAll([
             "/sailor-welder/",
             "/sailor-welder/index.html",
+            "/sailor-welder/assets/css/mycss.css",
             "/sailor-welder/assets/js/headerScript.js",
             "/sailor-welder/assets/js/homePage.js",
             "/sailor-welder/assets/js/aboutPage.js",
