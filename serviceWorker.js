@@ -1,4 +1,5 @@
-const CacheKey = "cache-v1"
+// const CacheKey = "cache-v1"
+const CacheKey = "cache-v2"
 
 const initCache = () => {
     return caches.open(CacheKey).then((cache) => {
@@ -17,8 +18,13 @@ const initCache = () => {
             "/sailor-welder/assets/img/me_in_the_cabin_424_565.webp",
             "/sailor-welder/assets/img/work-examples/work_example_1_424_565.webp",
             "/sailor-welder/assets/img/work-examples/work_example_2_424_565.webp",
+            "/sailor-welder/assets/img/anime_welder_212_264.webp",
+            "/sailor-welder/assets/img/me_in_the_cabin_raw_848_1130.webp",
+            "/sailor-welder/assets/img/work-examples/work_example_1_848_1130.webp",
+            "/sailor-welder/assets/img/work-examples/work_example_2_848_1130.webp",
             "/sailor-welder/assets/media/My-Jolly-Sailor-Bold.mp3",
-            "/sailor-welder/assets/media/What-Do-We-Do.mp3"
+            "/sailor-welder/assets/media/What-Do-We-Do.mp3",
+            "/sailor-welder/site.webmanifest"
         ])
     }, (error) => {
         console.log(error)
