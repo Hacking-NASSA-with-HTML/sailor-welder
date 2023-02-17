@@ -19,7 +19,7 @@ const initCache = () => {
             "/sailor-welder/assets/img/work-examples/work_example_2_424_565.webp",
             "/sailor-welder/assets/media/My-Jolly-Sailor-Bold.mp3",
             "/sailor-welder/assets/media/What-Do-We-Do.mp3"
-        ]);
+        ])
     }, (error) => {
         console.log(error)
     })
