@@ -1,5 +1,5 @@
 // const CacheKey = "cache-v1"
-const CacheKey = "cache-v16"
+const CacheKey = "cache-v17"
 
 const initCache = () => {
     return caches.open(CacheKey).then((cache) => {
