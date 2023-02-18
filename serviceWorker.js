@@ -12,6 +12,7 @@ const initCache = () => {
             "/sailor-welder/assets/js/aboutPage.js",
             "/sailor-welder/assets/js/contactPage.js",
             "/sailor-welder/assets/js/playBackGrMusic.js",
+            "/sailor-welder/assets/js/hideNavbarOnScroll.js",
             "/sailor-welder/assets/img/favicons/favicon-32x32.png",
             "/sailor-welder/assets/img/favicons/apple-touch-icon-180x180.png",
             "/sailor-welder/assets/img/anime_welder2_106_132.webp",
