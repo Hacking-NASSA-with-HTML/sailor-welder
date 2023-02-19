@@ -38,7 +38,7 @@ And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎
 ![](https://github.com/Hacking-NASSA-with-HTML/keep-alive-server/blob/main/assets/happy-happy.gif)
 
 
-    Just want your opinion guys, have you ever used a service-worker? 
+Just want your opinion guys, have you ever used a service-worker? 
 
 I mean "Progressive Web Apps" (PWAs), web apps that use service workers.
 
