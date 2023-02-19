@@ -36,3 +36,11 @@ And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎
 ![](https://github.com/Hacking-NASSA-with-HTML/Array_iteration_cheatsheet/blob/main/star.gif)
 
 ![](https://github.com/Hacking-NASSA-with-HTML/keep-alive-server/blob/main/assets/happy-happy.gif)
+
+Just want your opinion guys, have you ever used a service-worker? 
+
+I mean "Progressive Web Apps" (PWAs), web apps that use service workers.
+
+How hard is it to get rid of it later from cache?
+
+Is it downgrading the score of the Performance in Lighthouse 🤔 ?
