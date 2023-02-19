@@ -46,7 +46,7 @@ I mean "Progressive Web Apps" (PWAs), web apps that use service workers.
 
 I have a branch with it, but hesitate to merge it 🤷 
 
-How hard is it to get rid of it later from cache?
+How hard is to get rid of it later from cache?
 
 Is it downgrading the score of the Performance in Lighthouse 🤔 ?
 
