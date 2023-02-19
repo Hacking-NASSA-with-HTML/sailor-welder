@@ -40,6 +40,8 @@ And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎
 
 Just want your opinion guys, have you ever used a service-worker? 
 
+To add a feature for your app to be able to work offline?
+
 I mean "Progressive Web Apps" (PWAs), web apps that use service workers.
 
 I have a branch with it, but hesitate to merge it 🤷 
