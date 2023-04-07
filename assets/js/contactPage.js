@@ -12,7 +12,7 @@ function contactContent() {
                 <p>Earn💲money for Yourself!</p>
                 <p>Like it? Give that repo a Star⭐</p>
                 <p class="contact_section_app_link">
-                    <a href="https://github.com/Hacking-NASSA-with-HTML/sailor-welder/" target="_blank" rel="noopener noreferrer">Give it a Star on github</a>
+                    <a href="https://github.com/Hacking-NASSA-with-HTML/sailor-welder/" class="flash dark-btn" target="_blank" rel="noopener noreferrer">Give it a Star on github</a>
                 </p>
                 <p>Know how to improve it?</p>
                 <p>Send a pull request to the GitHub!</p>
@@ -28,7 +28,7 @@ function contactContent() {
                 </div>
                 <p>Work example 2</p>
                 <p class="contact_section_app_link">
-                    <a href="https://www.linkedin.com/in/vyacheslav-plekhanov/" target="_blank" rel="noopener noreferrer">Write me a letter or just say "Hi👋"</a>
+                    <a href="https://www.linkedin.com/in/vyacheslav-plekhanov/" class="flash dark-btn" target="_blank" rel="noopener noreferrer">Write me a letter or just say "Hi👋"</a>
                 </p>
                 <p>Have a Blessed Time!</p>
                 <p>And May Your Code Always Works Too 🎉🎂🍾🥂🎊😎</p>

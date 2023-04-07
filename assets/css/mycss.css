@@ -178,8 +178,60 @@ body {
     margin: 0 auto;
 }
 
+.flash {
+    display: inline-block;
+    padding: 22px 50px;
+    line-height: 130%;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.flash:active {
+    top: 3px;
+}
+
+.flash::after {
+    content: "";
+    margin-left: 60px;
+    width: 25px;
+    height: 300px;
+    background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.01));
+    animation-delay: .05s;
+    position: absolute;
+    left: -90px;
+    top: -100px;
+    animation-timing-function: ease-in-out;
+    animation-name: slide-me;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+@keyframes slide-me {
+    0% {
+        left: -30px;
+        margin-left: 0;
+    }
+
+    80%,
+    to {
+        left: 110%;
+        margin-left: 80px;
+    }
+}
+
 .about__wrapper .contact_section_app_link a {
     color: #0e0360;
+    /* color: #fff; */
+}
+
+/* you can add background color to btn */
+.light-btn {
+    /* background: #5f1dec; */
+    box-shadow: inset 0px -4px 0px #4b13c0;
+    border: 1px solid #5f1dec;
 }
 
 .about_img_wrapper {
@@ -222,6 +274,13 @@ body {
     outline: none;
     font-size: calc(25px + (30 - 25) * ((100vw - 300px) / (1600 - 300)));
     transition: 0.3s ease;
+}
+
+/* you can add background color to btn */
+.dark-btn {
+    /* background: #07045a; */
+    box-shadow: inset 0px -4px 0px #07045a;
+    border: 1px solid #3d3a8f;
 }
 
 .contact_section_app_link:hover {
